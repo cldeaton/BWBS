@@ -24,3 +24,11 @@ body {
 li {
 	display: inline-flex;
 }
+
+.item {
+	border-left: 2px solid white;
+}
+.nav-bar {
+	background: black;
+
+}

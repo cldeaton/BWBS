@@ -16,5 +16,7 @@
     "url": "https://github.com/cldeaton/BWBS/issues"
   },
   "homepage": "https://github.com/cldeaton/BWBS#readme",
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
