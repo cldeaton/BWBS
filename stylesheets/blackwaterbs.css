@@ -4,31 +4,8 @@ background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25
 background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
-h1 {
-	width: 50%;
-	align: center;
-	margin: auto, 0;
-}
-
-html {
-    height: 100%;
-}
-body {
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-li {
-	display: inline-flex;
-}
-
-.item {
-	border-left: 2px solid white;
-}
-.nav-bar {
-	background: black;
-
+.divider {
+	height: 11px;
+	margin-top: 15px;
+	border-right: 1px solid #fff;
 }
