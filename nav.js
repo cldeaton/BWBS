@@ -1,15 +1,13 @@
-// $(function(){
-//
-//     var menu = $('.menu-navigation-dark');
-//
-//     menu.slicknav();
-//
-//     // Mark the clicked item as selected
-//
-//     menu.on('click', 'a', function(){
-//         var a = $(this);
-//
-//         a.siblings().removeClass('selected');
-//         a.addClass('selected');
-//     });
+
+
+
+
+// $(document).ready(function(){
+//   $(.fade).slick({
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     fade: true,
+//     cssEase: 'linear'
+//   });
 // });
