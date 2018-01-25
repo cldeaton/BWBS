@@ -9,4 +9,11 @@
   width: auto;
   max-width: 100%;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+	color: orange;
+}
+.navbar-dark .navbar-nav .active .nav-link {
+	color:  #56CCF2;
+}
 /* make image more responsive */
