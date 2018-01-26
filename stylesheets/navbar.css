@@ -1,8 +1,15 @@
 .image-brand {
-  height: 40px;
-  width: 40px;
+  position: relative;
+	width: 100%;
+  max-width: 60px;
+	height: 40px;
+	max-height: 70px;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
-
+.navbar-brand {
+  padding: 0;
+}
 /* CSS Document */
 
 
@@ -16,7 +23,10 @@
 nav {
 	margin:0;
 	padding: 0;
-	background-color: #254441;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #logo {
@@ -51,7 +61,7 @@ nav ul li {
 	margin: 0px;
 	display:inline-block;
 	float: left;
-	background-color: #254441;
+	background-color: transparent;
 	}
 
 /* Styling the links */
@@ -63,12 +73,15 @@ nav a {
 	text-decoration:none;
 }
 
+nav ul li ul li { background: ##56CCF2; }
+nav ul li ul li:hover { background: #56CCF2; }
 
-nav ul li ul li:hover { background: #000000; }
 
 /* Background color change on Hover */
 nav a:hover {
-	background-color: #000000;
+	background-color: #56CCF2;
+  color: #000;
+
 }
 
 /* Hide Dropdowns by Default
@@ -83,6 +96,8 @@ nav ul ul {
 /* Display Dropdowns on Hover */
 nav ul li:hover > ul {
 	display:inherit;
+  background: #56CCF2;
+  color: #000;
 }
 
 /* Fisrt Tier Dropdown */
@@ -137,7 +152,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: transparent;
 		padding:14px 20px;
 		color:#FFF;
 		font-size:17px;
@@ -146,7 +161,8 @@ li > a:only-child:after { content: ''; }
 	}
 
 	.toggle:hover {
-		background-color: #000000;
+		background-color: #56CCF2;
+    color: #000;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -171,21 +187,21 @@ li > a:only-child:after { content: ''; }
 
 	nav a:hover,
  	nav ul ul ul a {
-		background-color: #000000;
+		background-color: #56CCF2;
 	}
 
 	nav ul li ul li .toggle,
 	nav ul ul a,
   nav ul ul ul a{
 		padding:14px 20px;
-		color:#FFF;
+		color:#000;
 		font-size:17px;
 	}
 
 
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: #212121;
+		background-color: transparent;
 	}
 
 	/* Hide Dropdowns by Default */

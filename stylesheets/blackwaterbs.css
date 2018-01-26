@@ -10,29 +10,14 @@ background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, F
 .jumbotron {
 	margin: 2% auto;
 	background: white;
-	padding: 7% 5%;
+	padding: 5% 5%;
 }
 .navbar{
    margin-bottom: 20px;
 }
 
 
-.container {
-	margin: 0 auto;
-	max-width: 100%;
-}
 
-.container-carousel {
-	/* border: 2px solid yellow; */
-	padding: 0;
-	width: 100%;
-	box-sizing: border-box;
-	margin-bottom: 30px;
-}
-.car-image {
-	position: relative;
-	width: 100%;
-	max-height: 500px;
 }
 h2 {
    position: absolute;
