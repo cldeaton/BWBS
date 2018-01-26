@@ -1,42 +1,38 @@
 .body {
 	background: #56CCF2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-padding-top: 60px;
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media (max-width: 979px) {
-body {
-	padding-top: 0px;
-}
-}
-.divider {
-	height: 11px;
-	margin-top: 15px;
-	border-right: 1px solid #fff;
-}
+
+
 
 .jumbotron {
 	margin: 2% auto;
 	background: white;
+	padding: 7% 5%;
 }
 .navbar{
    margin-bottom: 20px;
 }
 
-/* .main-content {
-	padding: 0;
-	width: 100%;
-} */
+
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
 .container-carousel {
 	/* border: 2px solid yellow; */
 	padding: 0;
 	width: 100%;
-	box-sizing: border-box;;
+	box-sizing: border-box;
+	margin-bottom: 30px;
 }
 .car-image {
 	position: relative;
 	width: 100%;
+	max-height: 500px;
 }
 h2 {
    position: absolute;
@@ -51,4 +47,47 @@ h2 span {
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(86, 204, 242, 0.7);
    padding: 10px;
+}
+
+body {
+	background: #212121;
+	font-size:22px;
+	line-height: 32px;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	word-wrap:break-word !important;
+	}
+
+
+h3 {
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Bree Serif', 'serif';
+}
+
+h3 a {
+	color: #FFF;
+}
+
+a {
+	color: #FFF;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align:center;
+	font-size:60px;
+	line-height: 70px;
+	font-family: 'Bree Serif', 'serif';
+	color: black;
+	}
+
+
+
+p {
+	text-align: center;
+	color: black;
 }
