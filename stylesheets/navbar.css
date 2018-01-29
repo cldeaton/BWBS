@@ -26,8 +26,9 @@ nav {
   background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  z-index: 99999;
 }
+
 
 #logo {
 	display: block;
@@ -106,6 +107,7 @@ nav ul ul li {
 	float:none;
 	display:list-item;
 	position: relative;
+  z-index: 99999;
 }
 
 /* Second, Third and more Tiers
