@@ -168,7 +168,7 @@ p {
 }
 .grid_cell {
 	width: 31%;
-	height: 360px;
+	max-height: 350px;
 	float: left;
 	display: inline-block;
 	padding: 0 8px;
@@ -191,6 +191,10 @@ p {
 	height: 100%;
 	border-radius: 15px;
 }
+.middle_column h3 {
+	margin: 0;
+}
+
 .middle_column::after, .grid::after {
   content: "";
   clear: both;
@@ -205,7 +209,7 @@ p {
 
 
 .staff_pic img {
-  border-radius: 4px;  /* Rounded border */
+
   width: 100%; /* Set a small width */
 	max-height: 200px;
 }
