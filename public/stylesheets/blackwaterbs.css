@@ -95,6 +95,7 @@ h2 span {
 body {
 	background: #212121;
 	font-size:22px;
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
 	color: #ffffff;
 	margin: 0;
@@ -105,10 +106,10 @@ body {
 
 h3 {
 	font-size: 30px;
+	font-weight: 500;
 	line-height: 34px;
 	text-align: center;
 	color: #000;
-	font-family: 'Bree Serif', 'serif';
 }
 
 h3 a {
@@ -124,8 +125,8 @@ h1 {
 	text-align:center;
 	font-size:60px;
 	line-height: 70px;
-	font-family: 'Bree Serif', 'serif';
 	color: black;
+	font-weight: 600;
 	}
 
 p {
@@ -161,27 +162,32 @@ p {
 	margin-bottom: 2.4em;
 }
 .grid {
-	display: block;
-	padding: 0;
-	margin: 0;
-	padding-left: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
 }
 .grid_cell {
-	width: 31%;
+	flex: 1 1 350px;
+	max-width: 425px;
 	max-height: 350px;
-	float: left;
-	display: inline-block;
 	padding: 0 8px;
-	/* margin: 0 0 0 16px; */
-	vertical-align: top;
+	margin: 15px 0 0 15px;
 	font-size: 1rem;
 	text-align: center;
-	margin-top: 15px;
 }
-@media (max-width: 650px) {
+
+@media (max-width: 1235px) {
     .grid_cell {
-        width: 100%;
-        display: block;
+			flex: 1 1 350px;
+        max-width: 425px;
+    }
+}
+
+@media (max-width: 930px) {
+    .grid_cell {
+				flex: 1 1 350px;
+        max-width: 425px;
     }
 }
 .middle_column {
@@ -192,7 +198,8 @@ p {
 	border-radius: 15px;
 }
 .middle_column h3 {
-	margin: 0;
+	padding: 10px 0;
+	margin: 5px 0;
 }
 
 .middle_column::after, .grid::after {
