@@ -95,7 +95,7 @@ h2 span {
 body {
 	background: #212121;
 	font-size:22px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 1.5;
 	color: #ffffff;
 	margin: 0;
@@ -237,10 +237,10 @@ div.staff_pic * {
 }
 .staff_pic p {
   position: absolute;
-	top: 50%;
+	top: 75%;
 	left: 50%;
 	color: #fff;
-	line-height: 30px;
+	line-height: 1;
 	width: auto;
 	height: auto;
 	padding: 5px;
