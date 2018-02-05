@@ -81,9 +81,9 @@ nav ul li > a {
 
 
 /* Background color change on Hover */
-nav a:hover {
+/* nav a:hover {
   color: #fff;
-}
+} */
 
 
 
@@ -118,6 +118,7 @@ nav a:hover {
   height: 40vh;
   left: 0;
   z-index: 1;
+  transition: a 1.5s ease 0.5s;
 }
 .flex-container {
   display: flex;
@@ -138,27 +139,33 @@ nav a:hover {
   height: 250px;
 }
 /* Images========================== */
-.menu-image img {
+/* Old css====== */
+/* .menu-image img {
   max-width: 300px;
   max-height: 200px;
+  border-radius: 20px;
 
-}
+} */
 
 
 
 /* Responsiveness=============== */
-@media (max-width: 1080px) {
+@media (max-width: 975px) {
     .menu-column {
-			flex: 1 1 400px;
       max-width: 460px;
     }
-}
-@media (max-width: 840px) {
-    .menu-column {
-			flex: 1 1 450px;
-      max-width: 750px;
+    .dropdown ul {
+      height: 65vh;
     }
 }
+/* @media (max-width: 840px) {
+    .menu-column {
+      max-width: 750px;
+    }
+    dropdown ul {
+      height: 65vh;
+    }
+} */
 
 .menu-column h3 {
   color: #fff;
@@ -191,35 +198,43 @@ nav a:hover {
 a {
   overflow: hidden;
 } */
-.menu-item a:before {
+.item:before {
   content: "[  ";
   position: absolute;
   left: 4px;
   visibility: hidden;
   transition: transform .3s ease-in;
 }
-a:hover:before {
+.item:hover:before {
   visibility: visible;
   transform: translateX(9px);
 }
-.menu-item:after {
+.item:after {
   content: "  ]";
   position: absolute;
   right: 5px;
   visibility: hidden;
   transition: transform .3s ease-in;
 }
-.menu-item:hover:after {
+.item:hover:after {
   visibility: visible;
   transform: translateX(-8px);
 }
 
 
 
-li > a:hover {
-  transform-origin: center;
+.item:hover {
+  /* transform-origin: center; */
   transform: scale(1.2);
 }
+
+/* li > a:hover img{
+  opacity: 0.8;
+  border-radius: 75px;
+} */
+
+/* Image styling================== */
+
 
 
 /* Media Queries
