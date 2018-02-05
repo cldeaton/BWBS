@@ -39,38 +39,79 @@
             <a class="navbar-brand" href="home"><img class="image-brand" src="/images/virginia-clipart-virginia-outline-clipart-1.jpg"/></a>
           </div>
 
-          <label for="drop" class="toggle">Menu</label>
+          <label for="drop" class="toggle"> Menu</label>
           <input type="checkbox" id="drop" />
               <ul class="menu">
-                  <li><a href="home">Home</a></li>
+                  <li><a href="home menu-item">Home</a></li>
                   <li class="dropdown">
                   <!-- First Tier Drop Down -->
-                  <label for="drop-1" class="toggle">Services +</label>
+                  <label for="drop-1" class="toggle menu-item">Services ++</label>
                   <a href="services">Services</a>
                   <input type="checkbox" id="drop-1"/>
-                  <ul>
-                      <li><a href="#">Repairs</a></li>
-                      <li><a href="#">Custom Wheel Building</a></li>
-                      <li><a href="#">Bike Rentals</a></li>
-                      <li><a href="#">Coaching/Bike Fit</a></li>
-                  </ul>
+                  <div class="menu-row">
+                    <ul>
+                      <div class="flex-container">
+                        <div class="menu-column">
+                          <h3>Repairs</h3>
+                          <li><a href="#">Repairs</a></li>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Custom Wheels</h3>
+                          <div class="menu-image">
+                            <li><a href="#"><img src="https://cdn.shopify.com/s/files/1/0349/7357/files/IndustryNineEnduro310_29_24h_Front.jpg?v=1500407427"/></a></li>
+                          </div>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Rentals</h3>
+                          <li><a href="#">Bike Rentals</a></li>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Coaching/Fitting</h3>
+                          <li><a href="#">Coaching/Bike Fit</a></li>
+                        </div>
+                      </div>
 
+                    </ul>
+                  </div>
                   </li>
                   <li class="dropdown">
-                  <label for="drop-2" class="toggle">Community +</label>
+                  <label for="drop-2" class="toggle menu-item">Community +</label>
                   <a href="community">Community</a>
                   <input type="checkbox" id="drop-2"/>
-                  <ul>
-                      <li><a href="#">Strava</a></li>
-                      <li><a href="#">Race Team</a></li>
-                      <li><a href="#">Local Rides</a></li>
-                      <li><a href="#">Local Weather</a></li>
-                      <li>
-                  </ul>
+                  <div class="menu-row">
+                    <ul>
+                      <div class="flex-container">
+                        <div class="menu-column">
+                          <h3>Strava</h3>
+                          <div class="menu-image">
+                            <li><a href="#"><img src="http://www.bikecleveland.org/wp-content/uploads/2016/02/Strava1.png"/></a></li>
+                          </div>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Race Team</h3>
+                          <div class="menu-image">
+                            <li><a href="#"><img src="https://images.unsplash.com/photo-1494488802316-82250d81cfcc?ixlib=rb-0.3.5&s=2627dae5174d3459248ecafa7c464ba7&auto=format&fit=crop&w=1050&q=80"/></a></li>
+                          </div>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Local Rides</h3>
+                          <div class="menu-image">
+                            <li><a href="#"><img src="https://images.unsplash.com/photo-1502176747191-3354e2597a5f?ixlib=rb-0.3.5&s=06126f4b6148f11b3ffd7f550a9d6a61&auto=format&fit=crop&w=818&q=80"/></a></li>
+                          </div>
+                        </div>
+                        <div class="menu-column">
+                          <h3>Local Weather</h3>
+                          <div class="menu-image">
+                            <li><a href="#"><img src="https://images.unsplash.com/photo-1469365556835-3da3db4c253b?ixlib=rb-0.3.5&s=338773e1817688d28b3c9c4593715d50&auto=format&fit=crop&w=1050&q=80"/></a></li>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
                   </li>
-                  <li><a href="about_us">About Us</a></li>
-                  <li><a href="products">Products</a></li>
-                  <li><a href="blog">Blog</a></li>
+                  <li><a href="menu-item about_us">About Us</a></li>
+                  <li><a href="menu-item products">Products</a></li>
+                  <li><a href="menu-item blog">Blog</a></li>
               </ul>
         </nav>
       </div>
