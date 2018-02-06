@@ -148,7 +148,8 @@ p {
 	margin: 0 auto;
 	z-index: 1;
 	position: relative;
-	background: #fff;
+	/* background: #fff; */
+	background-image: url(/images/dust_scratches.png);
 }
 .content_header {
 	margin-bottom: 2.4em;

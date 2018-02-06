@@ -1,0 +1,28 @@
+
+
+.lr_content_containter {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". . header . ."
+    "content content content sidebar sidebar";
+}
+aside {
+  align-self: right;
+  display: block;
+  grid-area: sidebar;
+}
+
+.lr_content_header {
+  grid-area: header;
+}
+.lr_content_box {
+  background-image: url(/images/topography.png);
+  grid-area: content;
+  margin: auto 15px;
+}
+.trailmap_wid {
+  width: 100%;
+}

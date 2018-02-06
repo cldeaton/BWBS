@@ -28,6 +28,11 @@ app.get("/services", function(req, res){
 app.get("/community", function(req, res){
   res.render("community");
 });
+// Local Rides=========
+app.get("/local_rides", function(req, res){
+  res.render("local_rides");
+});
+
 
 //Info Route
 app.get("/about_us", function(req, res){
