@@ -1,7 +1,8 @@
 .body {
-	background: #56CCF2;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-image: url(https://image.freepik.com/free-vector/grey-linen-texture-background_1053-253.jpg) ;
+	/* background: #56CCF2;
+	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+	background: linear-gradient(to right, #2F80ED, #56CCF2);  */
 }
 
 .jumbotron {
@@ -141,15 +142,15 @@ p {
 .content_containter {
 	margin: 0 auto;
 	max-width: 100%;
-	padding: 0 25px;
+	padding: 0;
 }
 .content_box {
 	/* max-width: 100%; */
 	margin: 0 auto;
 	z-index: 1;
 	position: relative;
-	/* background: #fff; */
-	background-image: url(/images/dust_scratches.png);
+	background: #fff;
+	/* background-image: url(/images/dust_scratches.png); */
 }
 .content_header {
 	margin-bottom: 2.4em;

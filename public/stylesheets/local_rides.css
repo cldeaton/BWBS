@@ -1,28 +1,67 @@
-
-
 .lr_content_containter {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-    ". . header . ."
-    "content content content sidebar sidebar";
+
 }
-aside {
-  align-self: right;
-  display: block;
-  grid-area: sidebar;
+.content_wrapper h1 {
+  /* background: url(/images/topography.png);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  width: 20vw; */
+  margin: 40px auto;
 }
 
-.lr_content_header {
-  grid-area: header;
-}
 .lr_content_box {
-  background-image: url(/images/topography.png);
-  grid-area: content;
-  margin: auto 15px;
-}
-.trailmap_wid {
+  /* background-image: url(/images/low_contrast_linen.png); */
+  background: rgba(21, 113, 184, 0.8);
+  /* display: grid; */
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-content: center;
+  grid-template-areas:
+          ". map map"
+          "head map map"
+          ". map map";
+  /* max-width: 1200px; */
   width: 100%;
+  max-height: 600px;
+  margin: 15px auto;
+  padding: 20px;
+}
+
+.lr_content_box h3 {
+  /* background: rgba(255, 255, 255, 0.79); */
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  height: 20%;
+  padding: 3px 5px;
+  margin: 0 auto;
+  grid-area: head;
+  width: 200px;
+}
+.trail_map {
+  margin: 5px auto;
+  grid-area: map;
+  width: 100%;
+  max-width: 1100px;
+  height: 550px;
+}
+
+
+/* Responsiveness================== */
+
+@media (max-width:700px) {
+  .lr_content_box {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "head"
+      "map";
+    height: 1000px;
+  }
+
+  .trail_map{
+    max-height: 300px;
+  }
+  .lr_content_box h3 {
+    height: 20%;
+    padding: 4px 6px;
+    margin: 0 auto;
+  }
 }
