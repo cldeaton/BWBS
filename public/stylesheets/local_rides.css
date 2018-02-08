@@ -1,31 +1,7 @@
-.lr_content_containter {
 
-}
-.content_wrapper h1 {
-  /* background: url(/images/topography.png);
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-  width: 20vw; */
-  margin: 40px auto;
-}
 
-.lr_content_box {
-  /* background-image: url(/images/low_contrast_linen.png); */
-  background: rgba(21, 113, 184, 0.8);
-  /* display: grid; */
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  justify-content: center;
-  grid-template-areas:
-          ". map map"
-          "head map map"
-          ". map map";
-  /* max-width: 1200px; */
-  width: 100%;
-  max-height: 600px;
-  margin: 15px auto;
-  padding: 20px;
-}
+
+
 
 .lr_content_box h3 {
   /* background: rgba(255, 255, 255, 0.79); */

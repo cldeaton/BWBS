@@ -20,9 +20,10 @@ app.get("/home", function(req, res){
 });
 
 //Service Routes=============================
-app.get("/services", function(req, res){
-  res.render("services");
+app.get("/repairs", function(req, res){
+  res.render("repairs");
 });
+
 
 //Community Routes===========================
 app.get("/community", function(req, res){
