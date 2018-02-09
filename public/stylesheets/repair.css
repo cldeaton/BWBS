@@ -40,14 +40,16 @@
   font-size: 18px;
 }
 .carte_container {
-  background: rgba(236, 168, 17, 0.7);
+  background: rgba(236, 168, 17, 0.6);
   max-width: 65%;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 15px 20px;
 }
 .suspension_container {
-  background: rgba(66, 191, 15, 0.69);
+  background: rgba(66, 191, 15, 0.6);
   max-width: 65%;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 15px 20px;
 }
 
 h4 {

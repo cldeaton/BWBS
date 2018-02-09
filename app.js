@@ -23,7 +23,9 @@ app.get("/home", function(req, res){
 app.get("/repairs", function(req, res){
   res.render("repairs");
 });
-
+app.get("/custom_wheels", function(req, res){
+  res.render("custom_wheels");
+});
 
 //Community Routes===========================
 app.get("/community", function(req, res){
