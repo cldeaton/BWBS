@@ -53,6 +53,18 @@ app.get("/group_rides", function(req, res){
 app.get("/products", function(req, res){
   res.render("products");
 });
+app.get("/bikes", function(req, res){
+  res.render("bikes");
+});
+app.get("/clothing", function(req, res){
+  res.render("clothing");
+});
+app.get("/accessories", function(req, res){
+  res.render("accessories");
+});
+app.get("/racks", function(req, res){
+  res.render("racks");
+});
 
 
 //Info Route

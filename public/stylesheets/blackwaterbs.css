@@ -1,5 +1,5 @@
 .body {
-	background-image: url(/images/concrete_wall_2.png) ;
+	background-image: url(/images/concrete_wall_2.png);
 	/* background: #56CCF2;
 	background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
 	background: linear-gradient(to right, #2F80ED, #56CCF2);  */
@@ -16,7 +16,6 @@
 	background: white;
 	padding: 15px 20px;
 	height: 50vh;
-	/* max-height: 250px; */
 	max-width: 1300px;
 	position: relative;
 }
@@ -82,7 +81,6 @@
 }
 
 
-
 }
 h2 {
    position: absolute;
@@ -123,9 +121,6 @@ h3 a {
 	color: #FFF;
 }
 
-/* a {
-	color: #FFF;
-} */
 
 h1 {
 
@@ -152,9 +147,8 @@ p {
 }
 .content_box {
 	max-width: 1300px;
-	margin: 0 auto;
+	margin: 5% auto;
 	padding: 50px 70px;
-	z-index: 1;
 	position: relative;
 	/* background: rgba(0, 0, 0, 0.7); */
 	background: rgba(255, 255, 255, 0.8);
@@ -166,12 +160,20 @@ p {
 }
 .content_header h1 {
 	margin: 0;
-	border-top: 2px solid orange;
-	border-bottom: 2px solid orange;
+	border-top: 3px solid orange;
+	border-bottom: 3px solid orange;
 }
-.content_box {
-	padding: 50px 50px;
-	margin-bottom: 2.4em;
+.content_box h3 {
+	/* border-width: 0px 12px 0px 12px;
+	border-style: double;
+	border-color: rgba(21, 113, 184, 0.7);
+	border-radius:40px 40px 60px 60px; */
+	margin: 0 auto;
+	width: 225px;
+}
+.content_box ul li {
+	color: #000;
+	font-weight: 600;
 }
 .grid {
 	display: flex;
@@ -206,21 +208,19 @@ p {
 }
 .jumbotron_footer a {
 	color: #fff;
+	margin: 30px;
 }
 .email {
 	width: 250px;
 	margin: 5px auto;
 }
-.email form {
-	display: inline-block;
-}
+
 .email_button {
 	height: 20px;
 	width: 80px;
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: .75px;
 	text-transform: uppercase;
-	/* border-radius: 5px; */
 	background: #000;
 	color: #fff;
 }
@@ -231,12 +231,12 @@ p {
 
 /* race team style ======================= */
 .team_expectations {
-	background: rgba(21, 113, 184, 0.7);
+	/* background: rgba(21, 113, 184, 0.7); */
   margin: 20px auto;
   padding: 15px 20px;
 }
 .team_perks {
-	background: rgba(236, 168, 17, 0.7);
+	/* background: rgba(236, 168, 17, 0.7); */
 	margin: 20px auto;
 	padding: 15px 20px;
 }

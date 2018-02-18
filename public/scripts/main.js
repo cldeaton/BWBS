@@ -42,3 +42,19 @@ $(document).ready(function(){
     ]
   });
 });
+
+
+function div_show() {
+  document.querySelector('.rentalForm').style.display = "block";
+  lightsOut();
+}
+function close_form() {
+document.querySelector('.rentalForm').style.display = "none";
+  lightsOn();
+}
+function lightsOut () {
+  document.querySelector('.cover').style.display = "block";
+}
+function lightsOn() {
+  document.querySelector('.cover').style.display = "none";
+}

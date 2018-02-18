@@ -44,7 +44,7 @@
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
 }
-.ih-item.square.effect6 .info h3 {
+.ih-item.square.effect6 .info h2 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -110,7 +110,7 @@
   transform: translateY(0);
 } */
 
-.ih-item.square.effect6.from_left_and_right .info h3 {
+.ih-item.square.effect6.from_left_and_right .info h2 {
   -webkit-transform: translateX(-100%);
   -moz-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
@@ -131,7 +131,7 @@
   -o-transform: translateX(100%);
   transform: translateX(100%);
 }
-.ih-item.square.effect6.from_left_and_right .areplace:hover .info h3,
+.ih-item.square.effect6.from_left_and_right .areplace:hover .info h2,
 .ih-item.square.effect6.from_left_and_right .areplace:hover .info p,
 .ih-item.square.effect6.from_left_and_right .areplace:hover .info a {
   -webkit-transform: translateX(0);
