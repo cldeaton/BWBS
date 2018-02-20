@@ -1,0 +1,21 @@
+.group_gloc {
+  border: 5px solid black;
+  /* border-width: 10px;
+  border-style: solid;
+  border-color:  rgba(56, 175, 20, 0.68); */
+  background: linear-gradient(to bottom, #59f30a, #0f3443);
+  border-radius:  50%;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.group_gloc img {
+  max-width: 95%;
+  max-height: 500px;
+}
+.group_gloc:hover  {
+  /* border-color: rgba(21, 113, 184, 0.68); */
+  background: linear-gradient(to top, #00c6ff, #1571b8);
+  color: #fff;
+}

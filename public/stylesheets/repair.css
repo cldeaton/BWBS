@@ -27,6 +27,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .repair_grid_cell {
