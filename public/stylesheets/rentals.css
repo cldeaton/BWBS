@@ -45,6 +45,17 @@
   background: rgba(56, 175, 20, 0.68);
   color: #000;
 }
+.rental_desc  p:nth-of-type(1) {
+  font-style: italic;
+  font-size: 19px;
+}
+.rental_desc h4 {
+  margin: 0 auto;
+  font-size: 30px;
+	font-weight: 500;
+	line-height: 34px;
+	text-align: center;
+}
 
 .rentalForm {
   display: none;
@@ -57,7 +68,7 @@
   background: #fff;
   background-image: url(/images/cartographer.png);
   position: absolute;
-  top: 0%;
+  top: 1%;
   left: 35%;
   z-index: 11;
 }
