@@ -240,11 +240,7 @@ p {
   margin: 20px auto;
   padding: 15px 20px;
 }
-.team_perks {
-	/* margin: 20px auto; */
-	/* padding: 15px 20px; */
-	max-width: 550px;
-}
+
 .product_photo.team {
 	margin-top: 45px;
 }

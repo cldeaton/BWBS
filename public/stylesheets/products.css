@@ -27,26 +27,23 @@
   position: relative;
   max-width: 500px;
   margin: 0 auto;
+  padding: 0 3px;
 }
-.left_float {
-  float: left;
-}
-.right_float {
-  float: right;
-}
-.nofloat {
-  float: none;
-}
+
 .product_photo img {
   width: 100%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 .product_info img {
-  width: 120px;
+  max-width: 150px;
+}
+.product_info li {
+  display: inline-block;
+  margin: 5px 10px;
 }
 .text-block {
     position: absolute;
-    bottom: 20px;
+    bottom: 150px;
     right: 20px;
     background-color: rgba(21, 113, 184, 0.8);
     color: #e6e6e6;
@@ -54,4 +51,113 @@
     padding-right: 20px;
     width: 40%;
     font-size: .9em;
+}
+.content_box a img{
+  max-width: 300px;
+}
+.clothing_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "header header header header"
+    "pic pic pic2 pic2"
+    "pic pic brands brands";
+}
+.bike_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "header header header header"
+    "brands brands pic pic"
+    "brands brands pic pic";
+}
+.bike_grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "header header header header"
+    ". pic pic ."
+    ". pic pic .";
+}
+.team_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "header header pic pic"
+    "header header pic pic"
+    "header header pic pic";
+}
+.header {
+  grid-area: header;
+}
+.pic {
+  grid-area: pic;
+}
+.pic2 {
+  grid-area: pic2;
+}
+.brands {
+  grid-area: brands;
+}
+/* Responsiveness======================================= */
+@media (max-width: 1200px) {
+
+  .team_grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "header header"
+    "pic pic";
+  }
+}
+@media (max-width: 1015px) {
+  .text-block {
+    bottom: 70px;
+    font-size: .6em;
+  }
+  .clothing_grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "header header"
+    "pic pic2"
+    "pic pic2"
+    "brands brands";
+  }
+
+
+}
+@media (max-width:910px) {
+  .clothing_grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "header header"
+    "pic pic"
+    "pic2 pic2"
+    "brands brands";
+  }
+
+  .bike_grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "header header"
+    "pic pic"
+    "brands brands";
+  }
+  .bike_grid2 {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "header header"
+    "pic pic";
+  }
+
+}
+
+@media (max-width: 650px) {
+  .text-block {
+    bottom: 70px;
+    font-size: .6em;
+  }
 }

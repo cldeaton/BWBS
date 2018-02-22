@@ -37,8 +37,8 @@ app.get("/coaching", function(req, res){
 app.get("/community", function(req, res){
   res.render("community");
 });
-app.get("/race_team", function(req, res){
-  res.render("race_team");
+app.get("/local_races", function(req, res){
+  res.render("local_races");
 });
 
 app.get("/local_rides", function(req, res){
