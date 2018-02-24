@@ -33,6 +33,16 @@ app.get("/coaching", function(req, res){
   res.render("coaching");
 });
 
+[
+  'community',
+  'local_races',
+  'group_rides',
+].forEach((name) => {
+  app.get('/' + name, (req, res) => {
+    res.render(name);
+  });
+})
+
 //Community Routes===========================
 app.get("/community", function(req, res){
   res.render("community");
@@ -65,7 +75,6 @@ app.get("/accessories", function(req, res){
 app.get("/racks", function(req, res){
   res.render("racks");
 });
-
 
 //Info Route
 app.get("/about_us", function(req, res){
