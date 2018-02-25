@@ -1,0 +1,52 @@
+<% include partials/header %>
+
+<main>
+  <div class="cover"></div>
+  <div class="page_content">
+    <div class="content_wrapper">
+      <div class="content_container">
+        <div class="content_header">
+          <h1>Personal Bike Fitting</h1>
+        </div>
+        <div class="content_box box_1">
+          <p>
+            Chartreuse single-origin coffee hella PBR&B artisan godard. Blue bottle pour-over synth, blog kombucha ennui aesthetic elit salvia. Kickstarter cillum seitan asymmetrical etsy irony proident prism typewriter consequat photo booth tempor meditation. Fanny pack fingerstache narwhal et, taxidermy semiotics direct trade raclette commodo anim.
+          </p>
+
+          <p>Chartreuse single-origin coffee hella PBR&B artisan godard. Blue bottle pour-over synth, blog kombucha ennui aesthetic elit salvia. Kickstarter cillum seitan asymmetrical etsy irony proident prism typewriter consequat photo booth tempor meditation. Fanny pack fingerstache narwhal et, taxidermy semiotics direct trade raclette commodo anim.
+          </p>
+          <div class="fit_pic product_photo">
+            <img src="http://cdn.triathlete.com/wp-content/uploads/2012/04/1212.jpg">
+          </div>
+          <p>If you would like to schedule an appointment for a personalize bike fitting then please give us a call or fill out the form below!</p>
+          <div class="fit_form_icon" onclick="div_show2()">
+            <a ><i class="fas fa-4x fa-envelope-square"></i></a>
+          </div>
+
+          <div id="form" class="fit_form form">
+            <form action="" method="">
+              <input type="text" name="firstName" placeholder="First Name" required/>
+              <input type="text" name="lastName" placeholder="Last Name" required/>
+              <input type="email" name="email" placeholder="Email" required/>
+              <textarea  name="fit_notes" placeholder="When would you like to schedule your fit?"required ></textarea>
+              <button type="submit" class="btn fit_form_btn">Schedule!</button>
+            </form>
+            <a class="closeForm" onclick="close_form2()">
+              <div class="closeCircle">
+                <i class="fas fa-lg fa-times"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+
+</main>
+
+
+
+
+
+<% include partials/footer %>

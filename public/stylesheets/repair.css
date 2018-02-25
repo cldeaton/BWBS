@@ -74,6 +74,56 @@ h4 {
   float: right;
 }
 
+/* Fit form========================== */
+.fit_form {
+  display: none;
+  width: 30%;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px 15px;
+  /* border: 6px solid rgba(21, 113, 184, 0.7); */
+  border: 6px solid rgba(250, 100, 20, 0.68);
+  background: #fff;
+  background-image: url(/images/topography.png);
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  z-index: 11;
+}
+.fit_form form input,textarea {
+  display: block;
+  width: 50%;
+  outline: none;
+  border-radius: 10px;
+  /* background: rgba(190, 195, 190, 0.7); */
+  line-height: 10px;
+  margin: 5px auto;
+  padding: .4em;
+  text-align: center;
+}
+.fit_form_icon {
+  text-align: center;
+}
+.fit_form_icon svg {
+  color: rgba(56, 175, 20, 0.68);
+}
+.fit_form_btn {
+  background: rgba(56, 175, 20, 0.68);
+}
+/* Coaching================================== */
+.text_clr1 {
+  color: rgba(56, 175, 20, 1);
+  font-size: 20px;
+
+}
+.text_clr2 {
+  color: rgba(250, 100, 20, 1);
+  font-size: 25px;
+}
+.skills li {
+  display: inline-block;
+  margin: 5px 10px;
+}
 /* Responsiveness ============================= */
 @media (max-width:850px ) {
   .tune-up_grid {
@@ -84,5 +134,18 @@ h4 {
   .repair_grid_cell {
     margin-top: 5px;
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .fit_form {
+    width: 60%;
+    left: 15%;
+    margin-bottom: 25px;
+  }
+  .text_clr1 {
+    font-size: 15px;
+  }
+  .text_clr2 {
+    font-size: 20px;
   }
 }

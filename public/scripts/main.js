@@ -48,8 +48,16 @@ function div_show() {
   document.querySelector('.rentalForm').style.display = "block";
   lightsOut();
 }
+function div_show2() {
+  document.querySelector('.fit_form').style.display = "block";
+  lightsOut();
+}
 function close_form() {
 document.querySelector('.rentalForm').style.display = "none";
+  lightsOn();
+}
+function close_form2() {
+document.querySelector('.fit_form').style.display = "none";
   lightsOn();
 }
 function lightsOut () {

@@ -73,6 +73,14 @@
     "brands brands pic pic"
     "brands brands pic pic";
 }
+.pricing_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 33%);
+  grid-template-areas:
+    "pic pic brands brands"
+    "pic pic brands brands";
+}
 .bike_grid2 {
   display: grid;
   grid-template-columns: repeat(4, 25%);
@@ -143,6 +151,12 @@
     grid-template-columns: repeat(2, 50%);
     grid-template-areas:
     "header header"
+    "pic pic"
+    "brands brands";
+  }
+  .pricing_grid {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
     "pic pic"
     "brands brands";
   }

@@ -23,8 +23,8 @@ app.get("/home", function(req, res){
 app.get("/repairs", function(req, res){
   res.render("repairs");
 });
-app.get("/custom_wheels", function(req, res){
-  res.render("custom_wheels");
+app.get("/fitting", function(req, res){
+  res.render("fitting");
 });
 app.get("/rentals", function(req, res){
   res.render("rentals");
@@ -33,15 +33,15 @@ app.get("/coaching", function(req, res){
   res.render("coaching");
 });
 
-[
-  'community',
-  'local_races',
-  'group_rides',
-].forEach((name) => {
-  app.get('/' + name, (req, res) => {
-    res.render(name);
-  });
-})
+// [
+//   'community',
+//   'local_races',
+//   'group_rides',
+// ].forEach((name) => {
+//   app.get('/' + name, (req, res) => {
+//     res.render(name);
+//   });
+// })
 
 //Community Routes===========================
 app.get("/community", function(req, res){

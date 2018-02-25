@@ -66,13 +66,13 @@
   /* border: 6px solid rgba(21, 113, 184, 0.7); */
   border: 6px solid rgba(56, 175, 20, 0.7);
   background: #fff;
-  background-image: url(/images/cartographer.png);
+  background-image: url(/images/topography.png);
   position: absolute;
   top: 1%;
   left: 35%;
   z-index: 11;
 }
-form input,textarea {
+.rentalForm form input,textarea {
   display: block;
   width: 50%;
   outline: none;
@@ -183,7 +183,7 @@ form p {
     left: 0%;
   }
   .closeForm {
-    top: -5%;
+    top: -40px;
     left: 0%;
     width: 100%;
   }
