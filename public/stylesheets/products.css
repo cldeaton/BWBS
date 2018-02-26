@@ -34,6 +34,9 @@
   width: 100%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
+.product_info {
+  text-align: center;
+}
 .product_info img {
   max-width: 150px;
 }
@@ -41,6 +44,17 @@
   display: inline-block;
   margin: 5px 10px;
 }
+.product_info_lg {
+  text-align: center;
+}
+.product_info img {
+  max-width: 350px;
+}
+.product_info_lg li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
 .text-block {
     position: absolute;
     bottom: 150px;
@@ -73,6 +87,15 @@
     "brands brands pic pic"
     "brands brands pic pic";
 }
+.brand_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "header header header header"
+    "brands brands brands brands"
+    "brands brands brands brands";
+}
 .pricing_grid {
   display: grid;
   grid-template-columns: repeat(4, 25%);
@@ -98,6 +121,16 @@
     "header header pic pic"
     "header header pic pic"
     "header header pic pic";
+}
+
+.safety_pic img{
+  width: 100%;
+}
+.brands_lg li {
+  max-width: 350px;
+}
+.brands_lg img {
+  width: 100%;
 }
 .header {
   grid-area: header;
