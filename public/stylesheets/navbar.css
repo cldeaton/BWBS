@@ -104,6 +104,7 @@ nav ul li > a {
 .dropdown:hover ul {
   /* display: block; */
   height: 350px;
+  position: relative;
 }
 .menu-column {
   /* flex: 1 1 350px; */
