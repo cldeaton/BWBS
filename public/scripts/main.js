@@ -6,8 +6,9 @@ $(document).ready(function(){
     speed: 500,
     fade: true,
     cssEase: 'linear',
-    arrows: true,
-    draggable: true
+    arrows: false,
+    draggable: true,
+
   });
 });
 

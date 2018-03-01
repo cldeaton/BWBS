@@ -12,7 +12,9 @@
 }
 .car-image img {
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
+	width: 95%;
+	margin: 0 auto;
 	height: auto;
 	max-height: 500px;
 }
@@ -50,15 +52,37 @@
   width: 100%;
   position: relative;
   padding: 50px 0 50px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: auto 0;
   float: left;
 }
 .slick-slider {
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-top: 30px;
   margin-bottom: 30px;
   position: relative;
   display: block;
+}
+.car-image .text-block {
+	position: absolute;
+	width: 300px;
+	left: 5%;
+	bottom: 10%;
+}
+
+.car-image a:hover {
+	opacity: .65;
+}
+
+
+
+
+/* Responsiveness============================= */
+
+@media (max-width: 380px) {
+	.car-image .text-block{
+		width: 150px;
+		font-size: 9px;
+	}
 }

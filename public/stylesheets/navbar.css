@@ -81,7 +81,7 @@ nav ul li > a {
 
 .dropdown {
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
 }
 
 .dropdown ul {
@@ -104,7 +104,6 @@ nav ul li > a {
 .dropdown:hover ul {
   /* display: block; */
   height: 350px;
-  position: relative;
 }
 .menu-column {
   /* flex: 1 1 350px; */
@@ -195,7 +194,7 @@ nav ul li > a {
 	}
   .dropdown ul {
     width: 100%;
-
+    position: relative;
   }
 
 	nav {
@@ -318,6 +317,9 @@ nav ul li > a {
   .menu-column h3 {
     font-size: 17px;
   }
+  .menu-image .info p {
+    font-size: 13px;
+  }
 }
 
 @media all and (max-width : 330px) {
@@ -325,4 +327,5 @@ nav ul li > a {
 		display:block;
 		/* width: 94%; */
 	}
+
 }

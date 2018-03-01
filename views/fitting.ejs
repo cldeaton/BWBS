@@ -24,12 +24,15 @@
           </div>
 
           <div id="form" class="fit_form form">
-            <form action="" method="">
+            <form id="fit_form" action="https://formspree.io/cldeaton24@gmail.com" method="POST">
               <input type="text" name="firstName" placeholder="First Name" required/>
               <input type="text" name="lastName" placeholder="Last Name" required/>
               <input type="email" name="email" placeholder="Email" required/>
               <textarea  name="fit_notes" placeholder="When would you like to schedule your fit?"required ></textarea>
               <button type="submit" class="btn fit_form_btn">Schedule!</button>
+              <input type="hidden" name="_next" value="/fitting" />
+              <input type="hidden" name="_subject" value="Request for Fitting!"/>
+              <input type="text" name="_gotcha" style="display:none" />
             </form>
             <a class="closeForm" onclick="close_form2()">
               <div class="closeCircle">

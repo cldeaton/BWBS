@@ -13,12 +13,11 @@
             In town for the weekend? Need a ride?
           </h3>
           <p>
-          Whether you are just checking out what central Virginia trails have to offer or in town for a nearby race, we can get you set up with a sweet ride to get you on your way. For $50/day we rent out high end mountain bikes and road bikes. From aero race machines to big travel juggernauts. We will set the bike's suspension and fit to you personally. If you prefer to ride with your own pedals, you can bring them with you and we will insall them. All rentals will be given a safety inspection prior to and after being rented out.
+          Whether you are just checking out what central Virginia trails have to offer or in town for a nearby race, we can get you set up with a sweet ride to get you on your way. For <strong>$50/day</strong> we rent out high end mountain bikes and road bikes. From aero race machines to big travel juggernauts. We will set the bike's suspension and fit to you personally. If you prefer to ride with your own pedals, you can bring them with you and we will insall them. All rentals will be given a safety inspection prior to and after being rented out.
           </p>
           <ul>
             <li>The rental period is 1 business day, from the shops opening to 30 min prior to closing. An extra day may be charged if returned late.</li>
-            <li>Please be propared to give credit card info and a copy of a valid driver's liscense.</li>
-            <li>If reserved online: Failure to give 24hr notice of cancelation can result in still being charged for the rental.</li>
+            <li><strong>Please be propared to give credit card info and a copy of a valid driver's liscense.</strong></li>
             <li>Must be 18 years of age or accompanied by a guardian to rent a bicycle.</li>
           </ul>
 
@@ -126,7 +125,7 @@
         </div>
         <div id="form" class="rentalForm form">
           <h1>Reserve Your Ride!!</h1>
-          <form action="" method="post">
+          <form action="https://formspree.io/cldeaton24@gmail.com" method="post">
             <input type="text" name="firstName" placeholder="First Name" required/>
             <input type="text" name="lastName" placeholder="Last Name" required/>
             <input type="email" name="email" placeholder="Email" />
@@ -138,15 +137,18 @@
               <p>
               Pick Up Date:
             </p>
-          </span>
-          <input type="date" name="pickUpDate" class="mydate"/>
-          <span>
-            <p>
-              Drop Off Date:
-            </p>
-          </span>
-          <input type="date" name="dropOffDate" class="mydate"/>
-          <input class="rentalBtn" type="submit"/>
+            </span>
+            <input type="date" name="pickUpDate" class="mydate"/>
+            <span>
+              <p>
+                Drop Off Date:
+              </p>
+            </span>
+            <input type="date" name="dropOffDate" class="mydate"/>
+            <input class="rentalBtn" type="submit"/>
+            <input type="hidden" name="_next" value="/rentals" />
+            <input type="hidden" name="_subject" value="Bike Reservation!" />
+            <input type="text" name="_gotcha" style="display:none" />
           </form>
           <a class="closeForm" onclick="close_form()">
             <div class="closeCircle">
