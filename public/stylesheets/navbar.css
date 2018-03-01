@@ -193,6 +193,10 @@ nav ul li > a {
 		text-align: center;
 		float: none;
 	}
+  .dropdown ul {
+    width: 100%;
+
+  }
 
 	nav {
 		margin: 0;
@@ -284,6 +288,22 @@ nav ul li > a {
 		position: static;
 		/* has to be the same number as the "width" of "nav ul ul li" */
 	}
+  .item:before {
+    content: " ";
+    position: absolute;
+    left: 4px;
+    visibility: hidden;
+    transition: transform .3s ease-in;
+  }
+
+  .item:after {
+    content: " ";
+    position: absolute;
+    right: 5px;
+    visibility: hidden;
+    transition: transform .3s ease-in;
+  }
+
 }
 
 @media (max-width:450px) {
@@ -303,6 +323,6 @@ nav ul li > a {
 @media all and (max-width : 330px) {
 	nav ul li {
 		display:block;
-		width: 94%;
+		/* width: 94%; */
 	}
 }
