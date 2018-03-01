@@ -47,12 +47,13 @@
 .product_info_lg {
   text-align: center;
 }
-.product_info img {
-  max-width: 350px;
-}
+
 .product_info_lg li {
   display: inline-block;
   margin: 5px 10px;
+}
+.product_info_lg img {
+  max-width: 200px;
 }
 
 .text-block {
@@ -130,7 +131,7 @@
   max-width: 350px;
 }
 .brands_lg img {
-  width: 100%;
+  max-width: 350px;
 }
 .header {
   grid-area: header;

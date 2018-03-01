@@ -75,33 +75,7 @@ nav ul li > a {
 	font-size:17px;
 	text-decoration:none;
 }
-
-
-
-
-
-/* Background color change on Hover */
-/* nav a:hover {
-  color: #fff;
-} */
-
-
-
-
-/* Display Dropdowns on Hover */
-/* nav ul li:hover > ul {
-	display:inherit;
-  color: #000;
-} */
-
-/* Fisrt Tier Dropdown */
-/* nav ul ul li {
-	width:170px;
-	float:none;
-	/* display:list-item; */
-	/* position: relative; */
-  z-index: 99999;
-} */
+}
 
 /* Mega Menu==================== */
 

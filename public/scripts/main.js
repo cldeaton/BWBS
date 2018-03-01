@@ -43,6 +43,13 @@ $(document).ready(function(){
   });
 });
 
+// function closeMenu () {
+//   var dropMenu = document.querySelector('.dropMenu').style.height;
+//   if (dropMenu !== 0){
+//     dropMenu = 0;
+//   };
+// }
+
 
 function div_show() {
   document.querySelector('.rentalForm').style.display = "block";

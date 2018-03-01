@@ -1,56 +1,61 @@
-/* .tune_grid {
-  display: block;
-  list-style: none;
-  padding: 0;
-} */
+
 
 .tu_quick {
   text-align: center;
-  /* padding: 20px; */
-  /* width: 33%; */
-  background: rgba(21, 113, 184, 0.45);
+  background: rgba(66, 191, 15, 0.5);
 }
 .tu_standard {
   text-align: center;
-  /* padding: 20px; */
-  /* width: 33%; */
-  background: rgba(21, 113, 184, 0.6);
+  background: rgba(66, 191, 15, 0.56);
 }
 .tu_true {
   text-align: center;
-  /* padding: 20px; */
-  /* width: 33%; */
-  background: rgba(21, 113, 184, 0.75);
+  background: rgba(66, 191, 15, 0.63);
+}
+.tu_works {
+  text-align: center;
+  background: rgba(66, 191, 15, 0.7);
 }
 .tune-up_grid {
-  display: flex;
-  flex-direction: row;
+  display: block;
+  /* flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; */
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .repair_grid_cell {
-  /* display: inline-block;
-  vertical-align: top;
-  margin: 0; */
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
   width: 32%;
-  margin: 20px 15px;
+  margin: 20px 0px;
+  vertical-align: middle;
+}
+.repair_grid_cell_lg {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  margin: 20px 0px;
 }
 .repair_grid_cell p {
   font-size: 18px;
+  margin: 10px 10px;
+}
+.repair_grid_cell_lg p {
+  font-size: 18px;
+  margin: 10px 10px;
 }
 .carte_container {
   background: rgba(236, 168, 17, 0.6);
-  /* max-width: 65%; */
   margin: 20px auto;
   padding: 15px 20px;
   overflow: auto;
 }
 .suspension_container {
   background: rgba(66, 191, 15, 0.6);
-  /* max-width: 65%; */
   margin: 20px auto;
   padding: 15px 20px;
 }
@@ -65,7 +70,7 @@ h4 {
 }
 .sus_chart img {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
 }
 .service_item {
   float: left;
