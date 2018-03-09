@@ -1,8 +1,7 @@
 .image-brand {
   position: relative;
 	width: 100%;
-  max-width: 60px;
-	height: 40px;
+	height: 47px;
 	max-height: 70px;
   margin-top: 5px;
   margin-bottom: 0;
@@ -31,10 +30,12 @@ nav {
 
 #logo {
 	display: block;
-	padding: 5px 30px;
+	padding: 5px 10px;
 	float: left;
 	font-size:20px;
 	line-height: 60px;
+  max-width: 125px;
+  margin: 0 auto;
 }
 
 /* Since we'll have the "ul li" "float:left"
