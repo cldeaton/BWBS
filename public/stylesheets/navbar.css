@@ -155,23 +155,53 @@ nav ul li > a {
   transform: scale(1.2);
 }
 
+.shop_info {
+  width: 220px;
+  float: right;
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  padding: 6px 8px;
+  margin: 12px 15px;
+}
+.info_item {
+  width: 220px;
+}
+.shop_address {
+
+}
+
+.shop_phone {
+
+}
+
 /* Responsiveness=============== */
 @media (max-width: 980px) {
-    .menu-column {
-      max-width: 350px;
-    }
-    .dropdown ul {
-      height: 0;
+  .shop_info {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
 
-    }
+  .info_item {
+    display: inline;
+  }
 
-    .dropdown:hover ul {
-      height: 600px;
-    }
+  .menu-column {
+    max-width: 350px;
+  }
+
+  .dropdown ul {
+    height: 0;
+
+  }
+
+  .dropdown:hover ul {
+    height: 600px;
+  }
 }
 
 @media all and (max-width : 768px) {
-
 	#logo {
 		display: block;
 		padding: 0;
@@ -179,6 +209,16 @@ nav ul li > a {
 		text-align: center;
 		float: none;
 	}
+  .shop_info {
+    width: 220px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .info_item {
+    display: block;
+  }
+
   .dropdown ul {
     width: 100%;
     position: relative;
@@ -285,10 +325,19 @@ nav ul li > a {
     visibility: hidden;
     transition: transform .3s ease-in;
   }
-
 }
 
 @media (max-width:450px) {
+  .shop_info {
+    width: 220px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .info_item {
+    display: block;
+  }
+
   .dropdown:hover ul {
     height: 450px;
   }
