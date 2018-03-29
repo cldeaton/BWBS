@@ -82,6 +82,7 @@ nav ul li > a {
 
 .dropdown ul {
   position: absolute;
+  top: 93px;
   background-color: rgba(19, 20, 20, 0.85);
   width: 100%;
   overflow: hidden;
@@ -193,7 +194,7 @@ nav ul li > a {
 
   .dropdown ul {
     height: 0;
-
+    top: 69px;
   }
 
   .dropdown:hover ul {
@@ -222,6 +223,7 @@ nav ul li > a {
   .dropdown ul {
     width: 100%;
     position: relative;
+    top: 0px;
   }
 
 	nav {
