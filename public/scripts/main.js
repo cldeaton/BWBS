@@ -19,13 +19,14 @@ $(document).ready(function(){
     centerPadding: '60px',
     slidesToShow: 3,
     autoplay: true,
+    arrows: true,
     speed: 500,
     draggable: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 3
