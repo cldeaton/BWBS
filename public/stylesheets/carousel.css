@@ -66,6 +66,24 @@
 	opacity: .65;
 }
 
+.slick-prev{
+	left: 44%;
+}
+
+.slick-next {
+	right: 44%;
+}
+
+.slick-next, .slick-prev {
+	top: 125%;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 25px;
+    line-height: 1;
+    opacity: 0.9;
+    color: rgba(250, 100, 20, 0.7);
+}
 
 /* Responsiveness============================= */
 
