@@ -19,7 +19,7 @@
 }
 .jumb_img img {
 	width: 100%;
-	max-height: 400px;
+	max-height: 500px;
 }
 .jumb_img .text-block {
 	background: rgba(56, 175, 20, 0.68);
@@ -165,6 +165,7 @@ p {
 }
 .jumbotron_footer {
 	width: 100%;
+	padding-top: 15px;
 	background: #000000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
