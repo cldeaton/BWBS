@@ -146,6 +146,11 @@ p {
 	margin: 25px auto;
 	width: 225px;
 }
+.content_box h5 {
+	margin: 25px auto;
+	width: 350px;
+	text-align: center;
+}
 .content_box ul li {
 	list-style: none;
 }
