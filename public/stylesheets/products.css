@@ -110,7 +110,22 @@
     ". pic pic ."
     ". pic pic .";
 }
-.team_grid {
+.team_expectations p {
+  text-align: left;
+}
+.team_perks p {
+  text-align: right;
+}
+.team_grid_1 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33%);
+  grid-template-areas:
+    "pic pic header header"
+    "pic pic header header"
+    "pic pic header header";
+}
+.team_grid_2 {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(3, 33%);
@@ -144,11 +159,23 @@
 /* Responsiveness======================================= */
 @media (max-width: 1200px) {
 
-  .team_grid {
+  .team_grid_1 {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+    "pic pic"
+    "header header";
+  }
+  .team_grid_2 {
     grid-template-columns: repeat(2, 50%);
     grid-template-areas:
     "header header"
     "pic pic";
+  }
+  .team_expectations p {
+    text-align: center;
+  }
+  .team_perks p {
+    text-align: center;
   }
 }
 @media (max-width: 1015px) {

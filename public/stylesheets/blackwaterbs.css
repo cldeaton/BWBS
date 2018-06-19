@@ -118,6 +118,10 @@ p {
 	max-width: 1400px;
 	padding: 0 50px;
 }
+.raceReg {
+	max-width: 350px;
+	margin: 0 auto;
+}
 .content_box {
 	max-width: 1300px;
 	margin: 0 auto;
