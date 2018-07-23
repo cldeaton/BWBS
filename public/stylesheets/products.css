@@ -1,20 +1,18 @@
+.group_card_pic {
+  /* border: 3px solid black; */
+}
 .group_gloc {
-  border: 5px solid black;
+  /* border: 3px solid black; */
   background: linear-gradient(to bottom, #59f30a, #0f3443);
-  border-radius:  50%;
-  text-align: center;
-  max-width: 550px;
-  margin: 0 auto;
 }
 
-.group_gloc img {
-  max-width: 95%;
-  max-height: 500px;
+.group_card_pic img {
+  width: 100%;
 }
-.group_gloc:hover  {
+/* .group_gloc:hover  {
   background: linear-gradient(to top, #00c6ff, #1571b8);
   color: #fff;
-}
+} */
 .product_container {
   overflow: auto;
 }
@@ -27,6 +25,7 @@
 }
 
 .product_photo img {
+  margin: 15px auto;
   width: 100%;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
@@ -134,7 +133,44 @@
     "header header pic pic"
     "header header pic pic";
 }
-
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.group_card {
+  max-width: 30%;
+  margin: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #dad3d3;
+  box-shadow: 2px 2px 13px 0px #5f5e5e4f;
+}
+.card_text {
+  padding: 5px 10px;
+  font-size: 17px;
+}
+.team_card {
+  padding: 5px 20px;
+  border: 1px solid #dcd8d8;
+  border-radius: 5px;
+  box-shadow: 2px 2px 13px 0px #5f5e5e4f;
+}
+.team_card p {
+  font-size: 1em;
+}
+.rental_info_container {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-areas:
+    "rental_1 rental_2";
+}
+.rental_card {
+  margin: 20px;
+  padding: 5px 10px;
+  border: 1px solid #dcd8d8;
+  border-radius: 8px;
+  box-shadow: 2px 2px 13px 0px #5f5e5e4f;
+}
 .safety_pic img{
   width: 100%;
 }
@@ -157,8 +193,13 @@
   grid-area: brands;
 }
 /* Responsiveness======================================= */
-@media (max-width: 1200px) {
+@media(max-width: 1470px) {
+  .card_text {
+    font-size: .7em;
+  }
+}
 
+@media (max-width: 1200px) {
   .team_grid_1 {
     grid-template-columns: repeat(2, 50%);
     grid-template-areas:
@@ -177,7 +218,18 @@
   .team_perks p {
     text-align: center;
   }
+  .group_card {
+    max-width: 50%;
+  }
+  .rental_info_container {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas:
+    "rental_1"
+    "rental_2";
+  }
 }
+
 @media (max-width: 1015px) {
   .text-block {
     bottom: 70px;
@@ -192,7 +244,6 @@
     "brands brands";
   }
 
-
 }
 @media (max-width:910px) {
   .clothing_grid {
@@ -203,7 +254,6 @@
     "pic2 pic2"
     "brands brands";
   }
-
   .bike_grid {
     grid-template-columns: repeat(2, 50%);
     grid-template-areas:
@@ -223,11 +273,23 @@
     "header header"
     "pic pic";
   }
+  .group_card {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 650px) {
   .text-block {
     bottom: 70px;
     font-size: .6em;
+  }
+  .card_text {
+    font-size: .8em;
+  }
+  .rental_card {
+    font-size: .8em;
+  }
+  .team_card p {
+    font-size: .8em;
   }
 }

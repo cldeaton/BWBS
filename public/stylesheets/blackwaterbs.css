@@ -123,7 +123,7 @@ p {
 	margin: 0 auto;
 }
 .content_box {
-	max-width: 1300px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding: 50px 70px;
 	position: relative;
@@ -249,7 +249,7 @@ p {
 		font-size: 33px;
 	}
 	.content_box p {
-		font-size: 12px;
+		font-size: .8em;
 	}
 	.jumb_img .text-block {
 		width: 150px;
